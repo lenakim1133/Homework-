@@ -1,4 +1,4 @@
-<!--Comparison Page-->
+<!-- Visualization Page - Wind Speed -->
 
 <!DOCTYPE html>
 <html lang="us-en">
@@ -73,46 +73,49 @@
       <div class="row">
 
         <!-- main content -->
-        <main class="comparison-padding">
-            
-          <h1 class="header">Comparison: Latitude vs. X</h1>
-          <hr>
-          <p>Click any plot to get an in-depth analysis.</p>
+        <main class="col-md-7 col-xs-12">
+          <div class="main-padding">
+            <h1 class="header">Wind Speed</h1>
+            <hr>
+            <section class="main-content">
+              <img class="main-image-nonfloat" src="Resources/assets/images/Fig4.png" alt="wind speed vs latitude">
+              <p>Wind speed is generally low near the equator, and can be much higher as one goes further from the equator. This is consistent with the known global wind patterns. Basically, near the equator, wind from both hemispheres converges and rises, so wind is calm. This calm region near the equator is known as the <strong>doldrums</strong> from maritime usage. At higher latitudes, commonly-observed wind patterns are <strong>trade wind</strong> and <strong>westerlies</strong> where wind can be much stronger.</p>
+            </section>
+          </div>
+        </main>
 
-          <section class="container-fluid">
-              <div class="row main-row">
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Max Temperature</h3>
+        <!-- side content -->
+        <side class="col-md-5 col-xs-12">
+          <div class="side-padding">
+            <h2 class="header">Visualizations</h2>
+            <hr>
+            <section class="container-fluid">
+              <div class="row side-row">
+                <div class="col-md-6 col-xs-3">
                   <a href="temp.html">
                     <img src="Resources/assets/images/Fig1.png" alt="max temperature vs latitude" class="side-image">
                   </a>
-                  <hr class="small-screen-hr">
                 </div>
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Humidity</h3>
+                <div class="col-md-6 col-xs-3">
                   <a href="humidity.html">
                     <img src="Resources/assets/images/Fig2.png" alt="humidity vs latitude" class="side-image">
                   </a>
-                  <hr class="small-screen-hr">
                 </div>
                 <div class="w-100"></div>
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Cloudiness</h3>
+                <div class="col-md-6 col-xs-3">
                   <a href="cloudiness.html">
                     <img src="Resources/assets/images/Fig3.png" alt="cloudiness vs latitude" class="side-image">
                   </a>
-                  <hr class="small-screen-hr">
                 </div>
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Wind Speed</h3>
+                <div class="col-md-6 col-xs-3 side-highlight">
                   <a href="wind-speed.html">
                     <img src="Resources/assets/images/Fig4.png" alt="wind speed vs latitude" class="side-image">
                   </a>
                 </div>
               </div>
             </section>
-
-        </main>
+          </div>
+        </side>
 
       </div>
     </div>

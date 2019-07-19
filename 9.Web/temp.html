@@ -1,4 +1,4 @@
-<!--Comparison Page-->
+<!-- Visualization Page - Max Temperature -->
 
 <!DOCTYPE html>
 <html lang="us-en">
@@ -73,46 +73,49 @@
       <div class="row">
 
         <!-- main content -->
-        <main class="comparison-padding">
-            
-          <h1 class="header">Comparison: Latitude vs. X</h1>
-          <hr>
-          <p>Click any plot to get an in-depth analysis.</p>
+        <main class="col-md-7 col-xs-12">
+          <div class="main-padding">
+            <h1 class="header">Max Temperature</h1>
+            <hr>
+            <section class="main-content">
+              <img class="main-image-nonfloat" src="Resources/assets/images/Fig1.png" alt="cloudiness vs latitude">
+              <p>As expected, the weather becomes much warmer as one approaches the equator (0 degree latitude). Temperature in this near-equator region is known to be consistently high throughout the year. More interestingly, the temperature distribution is almost symmetric over ~20 degrees latitude, with the highest temperature occurs near 20 degrees latitude. This is due to the slight tilt of the earth at the time of the year when data were gathered. Note that at higher latitudes, the southern hemisphere is slightly warmer than the northern hemisphere, even though the time already passes spring equinox. This is due to the lagging when temperature adjusts to Earth's tilt over time.</p>
+            </section>
+          </div>
+        </main>
 
-          <section class="container-fluid">
-              <div class="row main-row">
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Max Temperature</h3>
+        <!-- side content -->
+        <side class="col-md-5 col-xs-12">
+          <div class="side-padding">
+            <h2 class="header">Visualizations</h2>
+            <hr>
+            <section class="container-fluid">
+              <div class="row side-row">
+                <div class="col-md-6 col-xs-3 side-highlight">
                   <a href="temp.html">
                     <img src="Resources/assets/images/Fig1.png" alt="max temperature vs latitude" class="side-image">
                   </a>
-                  <hr class="small-screen-hr">
                 </div>
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Humidity</h3>
+                <div class="col-md-6 col-xs-3">
                   <a href="humidity.html">
                     <img src="Resources/assets/images/Fig2.png" alt="humidity vs latitude" class="side-image">
                   </a>
-                  <hr class="small-screen-hr">
                 </div>
                 <div class="w-100"></div>
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Cloudiness</h3>
+                <div class="col-md-6 col-xs-3">
                   <a href="cloudiness.html">
                     <img src="Resources/assets/images/Fig3.png" alt="cloudiness vs latitude" class="side-image">
                   </a>
-                  <hr class="small-screen-hr">
                 </div>
-                <div class="col-md-6 col-sm-12">
-                  <h3 class="header">vs. Wind Speed</h3>
+                <div class="col-md-6 col-xs-3">
                   <a href="wind-speed.html">
                     <img src="Resources/assets/images/Fig4.png" alt="wind speed vs latitude" class="side-image">
                   </a>
                 </div>
               </div>
             </section>
-
-        </main>
+          </div>
+        </side>
 
       </div>
     </div>
